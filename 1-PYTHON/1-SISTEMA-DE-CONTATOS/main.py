@@ -28,7 +28,6 @@ def pausar_terminal(tempo):
     
 def iniciar_sistema(titulo:str):
     caracteres = len(titulo)
-    
     for i in range(caracteres):
         pausar_terminal(.1)
         limpar_tela()
